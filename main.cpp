@@ -108,7 +108,7 @@ int main() {
     double tp1[] = {5,1};
     double tp2[] = {0,1};
     double tc1[] = {0,0};
-    intersect(tp1, tp2, tc1, 1); // case: one intercept
+    intersect(tp1, tp2, tc1, 1); // case: one intersection
     cout << "\n";
     double tp3[] = {4,-8};         
     double tp4[] = {4,-17};
