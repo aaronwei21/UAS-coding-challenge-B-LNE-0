@@ -72,16 +72,16 @@ void intCalc (double p[2], double q[2], double c[2], double r, int v) {
         lowerY = p[1];
     }
     
-    if (v == 0){                                              // Checks if intersection points are between start and end points.
-        if (i1[0] >= lowerX && i1[0] <= higherX)              // This is done using y coordinates for vertical lines and x coordinates 
-            cout << "(" << i1[0] << "," << i1[1] << ")";      // for horizontal and diagonal lines. 
+    if (v == 0){                                                  // Checks if intersection points are between start and end points.
+        if (i1[0] >= lowerX && i1[0] <= higherX)                  // This is done using y coordinates for vertical lines and x coordinates 
+            cout << "(" << i1[0] << "," << i1[1] << ")" << " ";   // for horizontal and diagonal lines. 
         if (i2[0] >= lowerX && i2[0] <= higherX)
-            cout << "," << "(" << i2[0] << "," << i2[1] << ")";
+            cout << "(" << i2[0] << "," << i2[1] << ")";
     } else {
         if (i1[1] >= lowerY && i1[1] <= higherY) 
-            cout << "(" << i1[0] << "," << i1[1] << ")";
+            cout << "(" << i1[0] << "," << i1[1] << ")" << " ";
         if (i2[1] >= lowerY && i2[1] <= higherY)
-            cout << "," << "(" << i2[0] << "," << i2[1] << ")";
+            cout << "(" << i2[0] << "," << i2[1] << ")";
     }
 }
 
