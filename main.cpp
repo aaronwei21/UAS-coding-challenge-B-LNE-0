@@ -86,7 +86,7 @@ void intCalc (double p[2], double q[2], double c[2], double r, int v) {
 }
 
 // p = point 1, q = point 2, c = center of circle, r = radius
-void intersect(double p[2], double q[2], double c[2], double r){
+void intersect(double p[2], double q[2], double c[2], double r){ // MAIN FUNCTION
     if (p[0] == q[0]){
         double x = p[0]; // To avoid undefined slope, the calculation for a vertical line
         double y = q[0]; // is calculated with reversed x,y coordinate.
